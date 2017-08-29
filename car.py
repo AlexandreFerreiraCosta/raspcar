@@ -1,3 +1,7 @@
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+import time
+
 # limpa canais alocados
 def limpar():
     GPIO.cleanup()
