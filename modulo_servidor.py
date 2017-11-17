@@ -95,5 +95,5 @@ class Conexao:
             #Fecha a conexão com cliente.
             con.close()
 
-conn = Conexao('172.16.40.153',5000)
+conn = Conexao('172.16.44.29',5000)
 conn.aguardandoConexao()
