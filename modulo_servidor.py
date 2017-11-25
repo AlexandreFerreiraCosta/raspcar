@@ -16,7 +16,7 @@ class Conexao:
         self.Port = port
 
     #Delf: Aguarda a conexão com cliente.
-    def aguardandoConexao(self):
+    def aguardandoConexao(self, velocidade):
         host = self.Host
         port = self.Port
 
@@ -57,7 +57,7 @@ class Conexao:
 
                         #Chama o método frente da classe Motores.
                         #Parâmetro: List (motores GPIO).
-                        #Parâmetro: Int (Velocida dos motores).
+                        #Parâmetro: Int (Velocidade dos motores).
                         mot.frente(list, 30)
                         mot.limpar()
                         
@@ -95,5 +95,5 @@ class Conexao:
             #Fecha a conexão com cliente.
             con.close()
 
-conn = Conexao('172.16.44.29',5000)
-conn.aguardandoConexao()
+#conn = Conexao('172.16.44.29',5000)
+#conn.aguardandoConexao()

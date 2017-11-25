@@ -1,4 +1,4 @@
-#===============================CLASSE MOTORES=================================#
+#=============================== CLASSE MOTORES =================================#
 # Classe Responsável por movimentar os motores do robô.
 # Utilizada para setar a velocidade dos motores.
 # Responsável pela configuração das portas no Raspberry.
